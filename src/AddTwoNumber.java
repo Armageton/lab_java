@@ -6,7 +6,7 @@ class AddTwoNumber {
         Scanner input = new Scanner(System.in);
         a = input.nextInt();
         b = input.nextInt();
-        c = a + b + a;
+        c = a + b;
         System.out.println("Sum: "+c);
     }
 }
