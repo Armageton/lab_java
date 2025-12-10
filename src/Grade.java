@@ -26,7 +26,8 @@ class Grade {
 
         System.out.println("Grade = " + grade);
     }
-
+}
+class GradeDemo{
     public static void main(String[] args) {
         Grade g = new Grade();
         g.input();

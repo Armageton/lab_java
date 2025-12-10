@@ -15,7 +15,9 @@ class FullName {
     void display() {
         System.out.println("Output: " + last + " " + first);
     }
-
+}
+class FullNameDemo
+{
     public static void main(String[] args) {
         FullName n = new FullName();
         n.input();

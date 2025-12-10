@@ -24,7 +24,8 @@ class Student {
         System.out.println("Roll No: " + roll);
         System.out.println("Section: " + section);
     }
-
+}
+class StudentDemo{
     public static void main(String[] args) {
         Student s = new Student();
         s.getData();
