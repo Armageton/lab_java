@@ -1,5 +1,3 @@
-package Day_1;
-
 import java.util.Scanner;
 class WeekDay {
     int day;

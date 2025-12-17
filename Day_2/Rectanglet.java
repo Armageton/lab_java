@@ -1,7 +1,12 @@
 import java.util.Scanner;
 
-class Rectangle {
+class Rectanglet {
     double length, breadth;
+
+    Rectangle() {
+        length = 0;
+        breadth = 0;
+    }
 
     Rectangle(double length, double breadth) {
         this.length = length;
@@ -10,10 +15,6 @@ class Rectangle {
 
     void area() {
         System.out.println("Area of Rectangle = " + (length * breadth));
-    }
-
-    void perimeter() {
-        System.out.println("Perimeter of Rectangle = " + (2 * (length + breadth)));
     }
 }
 
@@ -28,6 +29,5 @@ class RectangleDemo {
 
         Rectangle r = new Rectangle(l, b);
         r.area();
-        r.perimeter();
     }
 }
