@@ -1,14 +1,17 @@
+package Day_2;
+
+import java.awt.*;
 import java.util.Scanner;
 
 class Rectanglet {
     double length, breadth;
 
-    Rectangle() {
+    Rectanglet() {
         length = 0;
         breadth = 0;
     }
 
-    Rectangle(double length, double breadth) {
+    Rectanglet(double length, double breadth) {
         this.length = length;
         this.breadth = breadth;
     }
@@ -27,7 +30,7 @@ class RectangleDemo {
         System.out.println("Enter breadth:");
         double b = sc.nextDouble();
 
-        Rectangle r = new Rectangle(l, b);
+        Rectanglet r = new Rectanglet(l, b);
         r.area();
     }
 }
