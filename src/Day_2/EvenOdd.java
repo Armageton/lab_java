@@ -1,6 +1,7 @@
 import java.util.*;
 
 class EvenOdd {
+
     int even = 0,odd = 0;
     EvenOdd(int[] n){
         for (int i = 0; i < 10 ; i++){

@@ -16,7 +16,6 @@ class Plate {
     }
 }
 
-// Derived class
 class Box extends Plate {
     double height;
 
@@ -30,7 +29,6 @@ class Box extends Plate {
     }
 }
 
-// Derived class
 class WoodBox extends Box {
     double thick;
 

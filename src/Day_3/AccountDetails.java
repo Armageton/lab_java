@@ -2,7 +2,6 @@ package Day_3;
 
 import java.util.Scanner;
 
-// Base class
 class Account {
     int acc_no;
     double balance;
@@ -21,7 +20,6 @@ class Account {
     }
 }
 
-// Derived class
 class Person extends Account {
     String name;
     long aadhar_no;

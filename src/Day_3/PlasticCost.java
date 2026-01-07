@@ -2,7 +2,6 @@ package Day_3;
 
 import java.util.Scanner;
 
-// 2D Plastic Sheet
 class Plastic2D {
     double length, breadth;
     double cost2D = 40;
@@ -22,7 +21,7 @@ class Plastic2D {
     }
 }
 
-// 3D Plastic Box (inherits 2D)
+
 class Plastic3D extends Plastic2D {
     double height;
     double cost3D = 60;
@@ -41,7 +40,6 @@ class Plastic3D extends Plastic2D {
     }
 }
 
-// Main Class
 public class PlasticCost {
     public static void main(String[] args) {
         Plastic3D obj = new Plastic3D();
