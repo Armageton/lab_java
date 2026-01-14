@@ -1,31 +1,34 @@
 package Day_4;
 
-abstract class Students {
-    int rollNo;
-    String name;
+import java.util.Scanner;
 
-    Students(int rollNo, String name) {
-        this.rollNo = rollNo;
-        this.name = name;
+class Stud {
+    int rollno;
+    long regno;
+
+    // Constructor
+    Stud(int rollno, long regno) {
+        this.rollno = rollno;
+        this.regno = regno;
     }
 
-    @Override
+    // Overriding equals() method
     public boolean equals(Object obj) {
-        Students s = (Students) obj;
-        return this.rollNo == s.rollNo && this.name.equals(s.name);
+        Stud s = (Stud) obj;
+        return this.rollno == s.rollno && this.regno == s.regno;
     }
-
-    abstract void course();
 }
 
+// Driver class
 public class EqualsDemo {
     public static void main(String[] args) {
-        Students s1 = new Students(101, "Rahul");
-        Students s2 = new Students(101, "Rahul");
+        Stud s1 = new Stud(101, 1234567890L);
+        Stud s2 = new Stud(101, 1234567890L);
 
-        if (s1.equals(s2))
+        if (s1.equals(s2)) {
             System.out.println("Both students are equal");
-        else
+        } else {
             System.out.println("Students are not equal");
+        }
     }
 }
