@@ -9,8 +9,6 @@ interface Salary {
     void bonus();
 }
 
-
-
 abstract class Manager implements Salary {
 
     double basic;
